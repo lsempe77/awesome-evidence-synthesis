@@ -33,6 +33,8 @@ Systematic methods for identifying, evaluating, and integrating research evidenc
 - [PubMed Search Tester](https://esperr.github.io/pubmed-search-tester/about.html) - A web-based tool designed to help librarians and researchers construct and validate PubMed search queries in real-time.
 - [europepmc](https://docs.ropensci.org/europepmc/) - An R package to retrieve metadata and full text from the Europe PMC database, a crucial resource for accessing biomedical literature and open-access content.
 - [citracer](https://github.com/marcpinet/citracer) - Trace citation chains for any concept across research papers and render them as an interactive graph.
+- [searchbuildR](https://github.com/DrMattG/searchbuildR) - A Shiny R app providing a new implementation of the objective approach for search strategy development in systematic reviews.
+- [CiteSource](https://eshackathon.org/projects/citesource/) - An R package and Shiny app to analyze the utility of information sources and retrieval methodologies for evidence synthesis.
 
 ## Text Mining & NLP
 
@@ -41,6 +43,7 @@ Systematic methods for identifying, evaluating, and integrating research evidenc
 - [LitLLMs](https://litllm.github.io) - An open-source framework for applying large language models to literature review tasks, including summarization, retrieval, and synthesis.
 - [QuickUMLS](https://pypi.org/project/medspacy-quickumls/) - A fast, unsupervised approach for extracting concepts from biomedical text and mapping them to UMLS concepts, significantly faster than MetaMap.
 - [MetaNLP](https://cran.r-project.org/package=MetaNLP) - Natural language processing for meta-analysis, processing titles and abstracts for data extraction and synthesis.
+- [SciSpaCy](https://allenai.github.io/scispacy/) - A Python library containing spaCy models for processing biomedical, scientific, or clinical text for extraction and NLP tasks.
 
 ## Screening
 
@@ -52,6 +55,8 @@ Systematic methods for identifying, evaluating, and integrating research evidenc
 - [RobotSearch](https://www.robotreviewer.net/blog/2018/10/2/robotsearch-is-online-apply-our-classifier-to-your-search-results) - A machine learning tool designed to filter out articles that do not describe randomized controlled trials (RCTs) from search results.
 - [DenseReviewer](https://densereviewer.ielab.io) - A Python-based tool designed to accelerate the screening phase by using Dense Retrieval models to rank relevant studies and incorporating active learning.
 - [rayyanR](https://github.com/befriendabacterium/rayyanR) - An R package designed to process screening decisions exported from the Rayyan systematic review platform, structuring them for analysis and Prisma flow diagrams.
+- [RefRandomiser](https://refrandomiser.streamlit.app) - A Python-based data splitting tool developed to support double-screening processes in evidence synthesis.
+- [Trial2rev](https://github.com/evidence-surveillance/es3) - A system combining machine learning and crowd-sourcing to create a shared space for updating systematic reviews.
 
 ## Data Extraction & Cleaning
 
@@ -63,9 +68,10 @@ Systematic methods for identifying, evaluating, and integrating research evidenc
 - [QualCoder](https://qualcoder.wordpress.com) - A fully open-source qualitative analysis tool for text, audio, video, and images, providing advanced coding and analysis features.
 - [MSE FINDR](https://apsjournals.apsnet.org/doi/10.1094/PDIS-11-23-2519-SR) - A Shiny R application to estimate Mean Square Error using treatment means and post hoc test results.
 - [Auto-STEED](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0311358) - A data mining tool for automated extraction of experimental parameters and risk of bias items from in vivo publications.
-- [LitOrganizer](https://www.sciencedirect.com/science/article/pii/S2352711025001657) - Automates the process of data extraction and organization for scientific literature reviews, running locally as a management tool.
+- [GROBID](https://grobid.github.io) - A machine learning library for extracting structured information from scientific PDFs.
 - [prismAId](https://prismaid.review) - An open-source toolkit designed to support systematic literature reviews using generative AI for structured information extraction.
 - [ReAct-ExtrAct](https://react-extract.streamlit.app) - An open-source tool for automated, source-grounded data extraction in systematic reviews.
+- [Tabula](https://tabula.technology) - A tool for liberating data tables locked inside PDF files into CSV or Excel formats to facilitate data extraction.
 
 ## Risk of Bias Assessment
 
@@ -74,21 +80,21 @@ Systematic methods for identifying, evaluating, and integrating research evidenc
 - [Critiplot](https://critiplot.vercel.app) - A specialized open-source tool for generating traffic light plots for MMAT, ROBIS, GRADE, NOS, JBI Case Series/report assessments.
 - [robvis](https://www.riskofbias.info/welcome/robvis-visualization-tool) - An R package and web app for generating risk-of-bias assessment plots, supporting RoB2, ROBINS-I, QUADAS-2, and more.
 - [NOS-TLPlot](https://nos-tlplot.vercel.app) - Open-source tool designed to visualize Newcastle-Ottawa Scale (NOS) assessments using traffic light plots.
-- [psychometric](https://cran.r-project.org/web/packages/psychometric/) - R package for applied psychometric theory, offering functions for reliability analysis, validity, and item analysis.
+- [Metatron](https://cran.r-project.org/src/contrib/Archive/Metatron/) - An R package for meta-analysis of classification data correcting for imperfect reference standards.
 - [CINeMA](https://cinema.ispm.unibe.ch/) - Software for semiautomated assessment of the confidence in the results of network meta-analysis, guiding users through the evaluation process.
 
 ## Reference Management
 
-
 - [ASySD](https://camaradesuk.github.io/ASySD/) - A web application designed to de-duplicate large search results from multiple databases for systematic reviews efficiently.
 - [HAWC](https://hawcproject.org/) - An open-source content management system used to guarantee transparency in systematic reviews, managing the review process and documentation.
+- [synthesisr](https://martinwestgate.com/synthesisr/) - An R package that assists with the import, assembly, and de-duplication of bibliographic data for evidence synthesis projects.
 
 ## Workflow & Automation
 
 
-- [OSF (Open Science Framework)](https://osf.io/) - An open-source project management tool supporting the full research lifecycle, from preregistration to data sharing and collaboration.
-- [Markdown](https://rmarkdown.rstudio.com/) - A framework for creating dynamic documents that turn analysis code into fully reproducible reports for transparent documentation.
-- [bookdown](https://bookdown.org/) - An R package that allows authors to write books and long-form reports using R Markdown to facilitate comprehensive systematic reviews.
+- [Colandr](https://www.colandrcommunity.com) - Open-source platform for systematic review workflows.
+- [PredicTER](https://predicter.github.io) - A Shiny app predicting time required for systematic reviews.
+- [metaverse](https://rmetaverse.github.io) - R meta-project integrating functions for systematic reviews.
 - [SyRF](https://syrf.org.uk/) - The CAMARADES Systematic Review Facility (SyRF) is an open-source platform designed specifically for preclinical systematic reviews.
 - [Prisma 2020 (Flow Diagram)](https://estech.shinyapps.io/PRISMA_flowdiagram_latest/) - The official Prisma 2020 Flow Diagram Generator (Shiny App & R package) automatically creates a correctly formatted Prisma flow diagram.
 - [ROSES flowchart](https://estech.shinyapps.io/roses_flowchart/) - An R package and Shiny app for creating flow diagrams compliant with the ROSES (Reporting Standards for Systematic Evidence Syntheses) guidelines.
@@ -104,8 +110,7 @@ Systematic methods for identifying, evaluating, and integrating research evidenc
 - [VOSviewer](https://www.vosviewer.com/) - A software tool for constructing and visualizing bibliometric networks, useful for evidence mapping and co-citation analysis.
 - [EviAtlas](https://estech.shinyapps.io/eviatlas/) - A tool for creating systematic map visualizations to organize and display the distribution of evidence in a specific field.
 - [bibliometrix](http://www.bibliometrix.org/) - A comprehensive tool for quantitative research in bibliometrics and scientometrics, providing all the main tools for bibliometric analysis.
-- [Gephi](https://gephi.org/) - An open-source platform for visualizing and exploring large networks and graphs, widely used for network analysis and science mapping.
-- [Cytoscape](https://cytoscape.org/) - An open source software platform for visualizing complex networks and integrating these with any type of attribute data.
+- [flowchart](https://bruigtp.github.io/flowchart/) - An R package for generating flow diagrams (like PRISMA).
 - [forestplot](https://cran.r-project.org/web/packages/forestplot/) - An R package specifically designed for creating forest plots, which are standard visualizations in meta-analysis.
 - [MAvis](http://kylehamilton.net/shiny/MAVIS/) - An interactive Shiny application designed for visualizing meta-analysis data, including forest plots, funnel plots, and L'Abbe plots.
 - [metaviz](https://cloud.r-project.org/web/packages/metaviz/vignettes/metaviz.html) - An R package for creating flexible visualizations for meta-analytic data, including rainforest plots and subgroup visualizations.
@@ -126,10 +131,10 @@ Systematic methods for identifying, evaluating, and integrating research evidenc
 - [OpenMEE](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.12708) - An open-source, cross-platform software for meta-analysis in ecology and evolution, utilizing a graphical interface backed by 'metafor'.
 - [OpenMetaAnalyst](https://www.jstatsoft.org/article/view/v049i05) - A user-friendly, open-source software for performing meta-analysis and meta-regression using a graphical interface.
 - [JASP](https://jasp-stats.org/) - Free and open-source software for statistical analysis, featuring a graphical interface with a dedicated module for conducting meta-analysis.
-- [OpenEpi](https://www.openepi.com/) - A web-based, open-source set of epidemiologic calculators for statistics in descriptive and analytic studies, useful for data extraction and statistical verification.
-- [PyMC](https://www.pymc.io/) - A Python library for Bayesian statistical modeling and probabilistic machine learning focusing on Markov chain Monte Carlo (MCMC) algorithms.
-- [JAGS](https://mcmc-jags.sourceforge.io) - A program for analysis of Bayesian hierarchical models using Markov Chain Monte Carlo (MCMC) simulation.
-- [Stan](https://mc-stan.org/) - A state-of-the-art platform for statistical modeling and high-performance computation using Hamiltonian Monte Carlo (HMC).
+- [metamedian](https://cran.r-project.org/web/packages/metamedian/) - Median-based meta-analysis.
+- [Meta-CART](https://cran.r-project.org/web/packages/metacart/metacart.pdf) - Identifies interactions between moderators in meta-analysis.
+- [BUGSnet](https://bugsnetsoftware.github.io) - Web-based platform for Bayesian Network Meta-Analysis.
+- [metapower](https://cran.r-project.org/web/packages/metapower/) - Power analysis for meta-analysis.
 - [meta4diag](https://cran.r-project.org/web/packages/meta4diag/) - An R package specifically designed for the Bayesian meta-analysis of diagnostic test accuracy studies handling complex data structures.
 - [mada](https://cran.r-project.org/web/packages/mada/) - An R package that provides functions for the meta-analysis of diagnostic accuracy data, supporting various statistical models and visualization.
 - [metaSEM](https://cran.r-project.org/web/packages/metaSEM/) - An R package for conducting meta-analytic structural equation modeling (MASEM) to synthesize correlation or covariance matrices across studies.
@@ -158,11 +163,12 @@ Systematic methods for identifying, evaluating, and integrating research evidenc
 - [bipd](https://cran.r-project.org/package=bipd) - Bayesian Individual Patient Data Meta-Analysis using 'JAGS', facilitating the synthesis of IPD in a Bayesian framework.
 - [RoBMA](https://fbartos.github.io/RoBMA/) - Robust Bayesian meta-analysis using model-averaging to adjust for publication bias.
 - [metapsyTools](https://tools.metapsy.org) - Provides tools for preparing and analyzing meta-analytic datasets from the Metapsy psychotherapy databases, supporting effect size calculation and automated reporting.
+- [RTSA](https://cran.r-project.org/web/packages/RTSA/) - Trial Sequential Analysis for error control, calculating group sequential designs for meta-analysis to control type I and II errors.
 
 ## Statistics
 
 - [statcheck](https://cran.r-project.org/web/packages/statcheck/index.html) - An R package that extracts statistical results from text and checks whether reported p-values are consistent with test statistics and degrees of freedom.
-- [ArviZ](https://python.arviz.org/) - A Python library for exploratory analysis of Bayesian models, providing backend-agnostic plotting and diagnostics for Bayesian meta-analyses.
+- [metap](https://cran.r-project.org/web/packages/metap/index.html) - An R package for combining p-values when effect sizes are not available.
 - [metacp](https://link.springer.com/article/10.1186/s12859-025-06126-z) - A versatile software package that implements statistical methods for the combination of both independent p-values and dependent p-values.
 - [meta-maive](https://cran.r-project.org/package=MAIVE) - Meta-analysis instrumental variable estimator, addressing spurious precision in meta-analysis of observational research.
 - [artma](https://cran.r-project.org/package=artma) - Automatic replication tools for meta-analysis, facilitating the reproduction of meta-analytic findings.
@@ -173,6 +179,7 @@ Systematic methods for identifying, evaluating, and integrating research evidenc
 - [NMADTA](https://cran.r-project.org/package=NMADTA) - Network meta-analysis of multiple diagnostic test accuracy studies (1-5 tests) with missing data.
 - [coefa](https://cran.r-project.org/package=coefa) - Meta analysis of factor analysis based on co-occurrence matrices.
 - [appraise](https://cran.r-project.org/package=appraise) - Bias-aware evidence synthesis in systematic reviews, implementing a bias-aware framework.
+- [metapro](https://cran.r-project.org/web/packages/metapro/) - An R package that implements powerful p-value combination methods to detect incomplete association in meta-analyses.
 
 ## Contributing  
 <img src="assets/icon.png" width="90" align="right" />
