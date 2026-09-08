@@ -22,7 +22,7 @@ Systematic methods for identifying, evaluating, and integrating research evidenc
 - [Statistics](#statistics)
 
 
-## Literature Search
+## Literature Search (Suvarna)
 
 - [CitationChaser](https://estech.shinyapps.io/citationchaser/) - Automates backward and forward citation chasing using Lens.org API to find cited and citing papers for systematic reviews.
 - [litsearchr](https://elizagrames.github.io/litsearchr/) - An R package and Shiny app that uses text mining to identify important search terms, builds Boolean strings across databases, and test search performance.
@@ -38,7 +38,7 @@ Systematic methods for identifying, evaluating, and integrating research evidenc
 - [searchbuildR](https://github.com/DrMattG/searchbuildR) - A Shiny R app providing a new implementation of the objective approach for search strategy development in systematic reviews.
 - [CiteSource](https://eshackathon.org/projects/citesource/) - An R package and Shiny app to analyze the utility of information sources and retrieval methodologies for evidence synthesis.
 
-## Text Mining & NLP
+## Text Mining & NLP (Mark)
 
 - [PubTator 3.0](https://www.ncbi.nlm.nih.gov/research/pubtator3/) - A web-based semantic annotation system for biomedical literature, automatically recognizing concepts like genes, diseases, and chemicals.
 - [BioTextQuest v2.0](https://bioinformatics.med.uoc.gr/shinyapps/app/biotextquest) - An open-source web portal for biomedical literature mining that clusters PubMed search results to facilitate concept discovery and entity association.
