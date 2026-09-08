@@ -1,5 +1,7 @@
 # Awesome Evidence Synthesis Tools [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+> Forked for educational purposes
+
 > Systematic methods for identifying, evaluating, and synthesizing research evidence across multiple studies.
 
 Systematic methods for identifying, evaluating, and integrating research evidence across studies, with additional resources available at [evidencesynthesis-tools.github.io](https://evidencesynthesis-tools.github.io).
